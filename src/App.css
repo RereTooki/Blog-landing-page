@@ -19,8 +19,8 @@
 	}
 	@media (min-width: 768px) {
         .gradient {
-            background-position: 45% 45%;
-            background-image: linear-gradient(180deg, rgba(255,143,112,0.95) 46%, rgba(255,61,84,0.95) 92%), url(./assets/images/bg-pattern-intro-desktop.svg);
+            background-position: 26% 51%;
+            background-image: linear-gradient(to right, rgba(255,143,112,0.85) 2%, rgba(255,61,84,0.85) 92%), url(./assets/images/bg-pattern-intro-desktop.svg);
         }
     }
   }
