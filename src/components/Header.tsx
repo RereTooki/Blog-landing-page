@@ -53,7 +53,7 @@ const Header = () => {
             />
           </div>
         </div>
-        <div className="font-overpass text-whites pb-[80px] md:pb-[40px] text-center">
+        <div className="font-overpass px-[10px] text-whites pb-[80px] md:pb-[40px] text-center">
           <h1 className="text-[60px] leading-[75px]">
             A modern publishing platform
           </h1>
