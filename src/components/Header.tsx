@@ -7,11 +7,11 @@ import bgrandom from "../assets/images/icon-arrow-dark.svg";
 const Header = () => {
   return (
     <>
-      <div className="gradient">
-        <picture>
-          <source media="(min-width: 768px)" srcSet={bgintrodesktop} />
-          <img src={bgintromobile} alt="Background icon design" className="" />
-        </picture>
+      <div className="gradient flex flex-row overflow-hiddsen">
+        <h1 className="font-ubuntu">BlogR</h1>
+        <h1>aaaaaaaaa</h1>
+        <h1>aaaaaaaaa</h1>
+        <h1>aaaaaaaaa</h1>
       </div>
     </>
   );
