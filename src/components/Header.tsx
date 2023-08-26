@@ -6,7 +6,7 @@ import iconarrow from "../assets/images/icon-arrow-light.svg";
 const Header = () => {
   return (
     <>
-      <div className="gradient overflow-hidden">
+      <div className="gradient overflow-hidden select-none">
         <div className="pt-[80px] md:pt-[50px] pb-[200px] md:pb-[100px] flex flex-row justify-between">
           <div className="flex flex-row">
             <img
@@ -43,7 +43,7 @@ const Header = () => {
             <button className="vsm:hidden md:flex text-whites rounded-full px-[30px] py-[10px]">
               Login
             </button>
-            <button className="whitespace-nowrap vsm:hidden md:flex mr-[100px] text-light-reds ml-[30px] rounded-full bg-whites px-[30px] py-[10px]">
+            <button className="whitespace-nowrap vsm:hidden md:flex mr-[100px] text-light-reds ml-[30px] rounded-full bg-whites px-[30px] py-[10px] hover:bg-very-light-reds hover:text-whites">
               Sign Up
             </button>
             <img
@@ -62,10 +62,10 @@ const Header = () => {
           </p>
         </div>
         <div className="font-ubuntu pb-[150px] md:pb-[100px] font-bold flex flex-row justify-center">
-          <button className="text-light-reds mr-[10px] rounded-full bg-whites py-[10px] px-[15px]">
+          <button className="text-light-reds mr-[10px] rounded-full bg-whites py-[10px] px-[15px] hover:bg-very-light-reds hover:text-whites">
             Start for Free
           </button>
-          <button className="rounded-full border-[1.5px] py-[10px] px-[15px] text-whites">
+          <button className="rounded-full border-[1.5px] py-[10px] px-[15px] text-whites hover:bg-whites hover:text-light-reds">
             Learn More
           </button>
         </div>
