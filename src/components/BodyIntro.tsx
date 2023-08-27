@@ -36,7 +36,7 @@ const BodyIntro = () => {
               plugins and themes provide easy ways to add functionality or
               change the looks of a blog.
             </p>
-            <h1 className="px-[20px] nsm:px-0 text-[50px] nsm:text-[25px] pt-[10%] nsm:pt-[50px] pb-[5%] nsm:pb-0 leading-[65px] nsm:whitespace-nowrap text-center nsm:text-left text-very-dark-blues font-semibold drop-shadow-lg">
+            <h1 className="px-[20px] nsm:px-0 text-[50px] nsm:text-[25px] pt-[13%] nsm:pt-[50px] pb-[5%] nsm:pb-0 leading-[65px] nsm:whitespace-nowrap text-center nsm:text-left text-very-dark-blues font-semibold drop-shadow-lg">
               Robust content management
             </h1>
             <p className="text-center nsm:text-left px-[10%] nsm:px-0 leading-[42px] nsm:leading-normal text-[24px] nsm:text-[16px] tracking-wide nsm:tracking-normal text-very-dark-grayish-blues/80 drop-shadow-[0_20px_20px_rgba(0,0,0,0.15)]">
