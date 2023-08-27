@@ -25,7 +25,7 @@ const BodyIntro = () => {
           </picture>
 
           <div className="md:basis-0 md:grow md:shrink">
-            <h1 className="px-[20px] md:px-0 text-[50px] md:text-[25px] pt-[8%] md:pt-0 pb-[4%] md:pb-0 leading-[65px] md:whitespace-nowrap text-center md:text-left text-very-dark-blues font-semibold drop-shadow-lg">
+            <h1 className="px-[20px] md:px-0 text-[50px] md:text-[25px] pt-[8%] pb-[4%] md:pb-0 leading-[65px] md:whitespace-nowrap text-center md:text-left text-very-dark-blues font-semibold drop-shadow-lg">
               Introducing an extensible editor
             </h1>
             <p className="text-center md:text-left px-[10%] md:px-0 leading-[42px] md:leading-normal text-[24px] md:text-[16px] tracking-wide md:tracking-normal text-very-dark-grayish-blues/80 drop-shadow-[0_20px_20px_rgba(0,0,0,0.15)]">
