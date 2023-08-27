@@ -14,13 +14,13 @@ const BodyIntro = () => {
           <picture className="nsm:basis-0 nsm:grow nsm:shrink drop-shadow-[0_40px_40px_rgba(0,0,0,0.15)]">
             <source
               className=""
-              media="(min-width: 720px)"
+              media="(min-width: 760px)"
               srcSet={editordesktop}
             />
             <img
               src={editormobile}
               alt=""
-              className="nsm:translate-x-[40%] nsm:translate-y-[40%] md:nsm:translate-y-0 nsm:scale-[1.7] w-[100%]"
+              className="nsm:translate-x-[40%] nsm:translate-y-[50%] md:translate-y-0 nsm:scale-[1.7] w-[100%]"
             />
           </picture>
 
