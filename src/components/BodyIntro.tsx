@@ -6,30 +6,29 @@ import editordesktop from "../assets/images/illustration-editor-desktop.svg";
 const BodyIntro = () => {
   return (
     <>
-      <div className="overflow-x-hidden flex flex-col pt-[30%] nsm:pt-[15%] items-center font-overpass select-none">
+      <div className="overflow-hidden flex flex-col pt-[30%] md:pb-[15%] nsm:pt-[15%] items-center font-overpass select-none">
         <h1 className="text-[60px] pb-[8%] leading-[65px] md:text-[35px] md:whitespace-nowrap text-center text-very-dark-blues font-semibold drop-shadow-lg">
           Designed for the future
         </h1>
-        <div className="md:flex md:flex-row-reverse md:px-[6rem]">
+        <div className="md:flex md:flex-row-reverse md:px-[10%] md:gap-x-[2%]">
+          <picture className="md:basis-0 md:grow md:shrink drop-shadow-[0_40px_40px_rgba(0,0,0,0.15)]">
+            <source
+              className=""
+              media="(min-width: 950px)"
+              srcSet={editordesktop}
+            />
+            <img
+              src={editormobile}
+              alt=""
+              className="md:translate-x-[40%] md:scale-[1.7] w-[100%]"
+            />
+          </picture>
+
           <div className="md:basis-0 md:grow md:shrink">
-            <picture className="md:h-[100%] md:object-cover md-block md:max-w-[100%] md:bg-very-light-reds drop-shadow-[0_40px_40px_rgba(0,0,0,0.15)]">
-              <source
-                className=""
-                media="(min-width: 950px)"
-                srcSet={editordesktop}
-              />
-              <img
-                src={editormobile}
-                alt=""
-                className="md:translate-x-[40%] md:scale-150 w-[100%] md:w-auto md:h-[100%] md:object-cover md:bg-very-light-sreds"
-              />
-            </picture>
-          </div>
-          <div className="md:basis-0 md:grow md:shrink md:bg-light-reds ">
             <h1 className="px-[20px] md:px-0 text-[50px] md:text-[25px] pt-[8%] md:pt-0 pb-[4%] md:pb-0 leading-[65px] md:whitespace-nowrap text-center md:text-left text-very-dark-blues font-semibold drop-shadow-lg">
               Introducing an extensible editor
             </h1>
-            <p className="text-center md:text-left px-[10%] md:px-0 leading-[42px] md:leading-normal text-[24px] md:text-[16px] tracking-wide md:tracking-tight text-very-dark-grayish-blues/80 drop-shadow-[0_20px_20px_rgba(0,0,0,0.15)]">
+            <p className="text-center md:text-left px-[10%] md:px-0 leading-[42px] md:leading-normal text-[24px] md:text-[16px] tracking-wide md:tracking-normal text-very-dark-grayish-blues/80 drop-shadow-[0_20px_20px_rgba(0,0,0,0.15)]">
               Blogr features an exceedingly intuitive interface which lets you
               focus on one thing: creating content. The editor supports
               management of multiple blogs and allows easy manipulation of
@@ -40,7 +39,7 @@ const BodyIntro = () => {
             <h1 className="px-[20px] md:px-0 text-[50px] md:text-[25px] pt-[10%] md:pt-[50px] pb-[5%] md:pb-0 leading-[65px] md:whitespace-nowrap text-center md:text-left text-very-dark-blues font-semibold drop-shadow-lg">
               Robust content management
             </h1>
-            <p className="text-center md:text-left px-[10%] md:px-0 leading-[42px] md:leading-normal text-[24px] md:text-[16px] tracking-wide md:tracking-tight text-very-dark-grayish-blues/80 drop-shadow-[0_20px_20px_rgba(0,0,0,0.15)]">
+            <p className="text-center md:text-left px-[10%] md:px-0 leading-[42px] md:leading-normal text-[24px] md:text-[16px] tracking-wide md:tracking-normal text-very-dark-grayish-blues/80 drop-shadow-[0_20px_20px_rgba(0,0,0,0.15)]">
               Flexible content management enables users to easily move through
               posts. Increase the usability of your blog by adding customized
               categories, sections, format, or flow. With this functionality,
