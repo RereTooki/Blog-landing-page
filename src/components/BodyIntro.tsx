@@ -20,7 +20,7 @@ const BodyIntro = () => {
             <img
               src={editormobile}
               alt=""
-              className="nsm:translate-x-[40%] nsm:translate-y-[60%] md:translate-y-0 nsm:scale-[1.7] w-[100%]"
+              className="nsm:translate-x-[44%] md:translate-x-[40%] nsm:translate-y-[60%] md:translate-y-0 nsm:scale-[1.7] w-[100%]"
             />
           </picture>
 
