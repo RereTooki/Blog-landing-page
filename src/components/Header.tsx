@@ -3,9 +3,6 @@ import logo from "../assets/images/logo.svg";
 import iconmenu from "../assets/images/icon-hamburger.svg";
 import iconarrow from "../assets/images/icon-arrow-light.svg";
 
-import editormobile from "../assets/images/illustration-editor-mobile.svg";
-import editordesktop from "../assets/images/illustration-editor-desktop.svg";
-
 const Header = () => {
   return (
     <>
@@ -73,18 +70,6 @@ const Header = () => {
           </button>
         </div>
       </div>
-      <picture className="drop-shadow-[0_40px_40px_rgba(0,0,0,0.15)]">
-        <source
-          className=""
-          media="(min-width: 950px)"
-          srcSet={editordesktop}
-        />
-        <img
-          src={editormobile}
-          alt=""
-          className="w-[100%s] md:bg-very-light-reds"
-        />
-      </picture>
     </>
   );
 };
