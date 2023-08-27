@@ -7,7 +7,7 @@ const BodyIntro = () => {
   return (
     <>
       <div className="overflow-hidden flex flex-col pt-[30%] nsm:pb-[15%] nsm:pt-[15%] items-center font-overpass select-none">
-        <h1 className="text-[60px] pb-[8%] leading-[65px] nsm:text-[35px] nsm:whitespace-nowrap text-center text-very-dark-blues font-semibold drop-shadow-lg">
+        <h1 className="text-[60px] nsm:pb-[2%] md:pb-[8%] leading-[65px] nsm:text-[35px] nsm:whitespace-nowrap text-center text-very-dark-blues font-semibold drop-shadow-lg">
           Designed for the future
         </h1>
         <div className="nsm:flex nsm:flex-row-reverse nsm:px-[10%] nsm:gap-x-[2%]">
