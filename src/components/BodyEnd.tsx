@@ -6,7 +6,7 @@ import laptopdesktop from "../assets/images/illustration-laptop-desktop.svg";
 const BodyEnd = () => {
   return (
     <>
-      <div className="overflow-hidden flex flex-col pt-[30%] nsm:pb-[20%] nsm:pt-[15%] items-center font-overpass select-none">
+      <div className="overflow-hidden flex flex-col pt-[30%] nsm:pb-[20%] nsm:pt-[15%] md:pt-[30%] items-center font-overpass select-none">
         <div className="nsm:flex nsm:flex-row nsm:px-[10%] nsm:gap-x-[2%]">
           <picture className="nsm:basis-0 nsm:grow nsm:shrink drop-shadow-[0_40px_40px_rgba(0,0,0,0.15)]">
             <source
