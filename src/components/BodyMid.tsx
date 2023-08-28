@@ -9,12 +9,12 @@ const BodyMid = () => {
       <div className="gradient2 font-overpass text-center select-none flex flex-col">
         <div className="relative h-[250px]">
           <img
-            className="absolute Sh-[320px] Sw-[320px] bottom-[-50px]"
+            className="absolute bottom-[-50px]"
             src={phones}
             alt="A couple of phones"
           />
         </div>
-        <div className="px-[10%] pt-0 pb-[40px]">
+        <div className="px-[10%] pt-[4%] pb-[40px]">
           <h1 className="text-[50px] leading-[60px]  font-semibold text-whites">
             State of the Art Infrastructure
           </h1>
