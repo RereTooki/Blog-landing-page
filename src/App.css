@@ -14,10 +14,46 @@
         background-image: linear-gradient(180deg, rgba(255,143,112,0.95) 46%, rgba(255,61,84,0.95) 92%), url(./assets/images/bg-pattern-intro-mobile.svg);
         border-radius: 0 0 0 150px; 
 	}
-	@media (min-width: 950px) {
+	@media (min-width: 940px) {
         .gradient {
             background-position: 26% 51%;
             background-image: linear-gradient(to right, rgba(255,143,112,0.85) 2%, rgba(255,61,84,0.85) 92%), url(./assets/images/bg-pattern-intro-desktop.svg);
         }
     }
+
+    .gradient2 {
+        background-image: url(./assets/images/bg-pattern-circles.svg), linear-gradient(to right, hsl(237, 17%, 21%), hsl(237, 23%, 32%));
+        border-radius: 0 150px 0 150px; 
+        background-repeat: no-repeat;
+        background-size: 150%, cover;
+        background-position: 50% 150%;        
+    }
+
+
+    
+    /* .gradient2 {
+        background-repeat: no-repeat;
+        background-position: 27% 190%;
+        background-image: linear-gradient(130deg, hsla(237, 17%, 21%, 0.9) 66%,  hsla(237, 23%, 32%, 0.98) 96%), url(./assets/images/bg-pattern-circles.svg);
+        border-radius: 0 150px 0 150px; 
+        
+	}
+    @media (min-width: 355px) {
+        .gradient2 {
+            background-position: 27% 130%;
+            background-image: linear-gradient(130deg, hsla(237, 17%, 21%, 0.90) 66%, hsla(237, 23%, 32%, 0.98) 96%), url(./assets/images/bg-pattern-circles.svg);
+        }
+    }
+    @media (min-width: 560px) {
+        .gradient2 {
+            background-position: 33% 210%;
+            background-image: linear-gradient(130deg, hsla(237, 17%, 21%, 0.90) 66%, hsla(237, 23%, 32%, 0.98) 96%), url(./assets/images/bg-pattern-circles.svg);
+        }
+    }
+	@media (min-width: 940px) {
+        .gradient2 {
+            background-position: 26% 51%;
+            background-image: linear-gradient(to right, hsla(237, 17%, 21%,0.85) 2%, hsla(237, 23%, 32%,0.85) 92%), url(./assets/images/bg-pattern-circles.svg);
+        }
+    } */
   }

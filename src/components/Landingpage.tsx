@@ -11,7 +11,9 @@ const Landingpage = () => {
       <div className="">
         <Header />
         <BodyIntro />
-        <BodyMid />
+        <div className=" pt-[367px]">
+          <BodyMid />
+        </div>
         {/* <Footer /> */}
       </div>
     </>
