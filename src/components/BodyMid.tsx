@@ -9,7 +9,7 @@ const BodyMid = () => {
       <div className="gradient2 font-overpass text-center select-none flex flex-col">
         <div className="relative h-[250px]">
           <img
-            className="absolute Sh-[320px] Sw-[320px] bottom-[1px]"
+            className="absolute Sh-[320px] Sw-[320px] bottom-[-50px]"
             src={phones}
             alt="A couple of phones"
           />
