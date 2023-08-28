@@ -1,4 +1,3 @@
-import React from "react";
 import "../App.css";
 import laptopmobile from "../assets/images/illustration-laptop-mobile.svg";
 import laptopdesktop from "../assets/images/illustration-laptop-desktop.svg";
