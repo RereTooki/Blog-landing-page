@@ -22,7 +22,7 @@ const BodyEnd = () => {
           </picture>
 
           <div className="nsm:basis-0 nsm:grow nsm:shrink">
-            <h1 className="px-[20px] nsm:px-0 text-[40px] nsm:text-[25px] pt-[8%] pb-[4%] nsm:pb-0 leading-[65px] nsm:whitespace-nowrap text-center nsm:text-left text-very-dark-blues font-semibold drop-shadow-lg">
+            <h1 className="px-[20px] nsm:px-0 text-[40px] nsm:text-[25px] pt-[8%] pb-[4%] nsm:pb-0 leading-[50px] nsm:whitespace-nowrap text-center nsm:text-left text-very-dark-blues font-semibold drop-shadow-lg">
               Free, open, simple
             </h1>
             <p className="text-center nsm:text-left px-[10%] nsm:px-0 leading-[35px] nsm:leading-normal text-[20px] nsm:text-[16px] tracking-wide nsm:tracking-normal text-very-dark-grayish-blues/80 drop-shadow-[0_20px_20px_rgba(0,0,0,0.15)]">
@@ -33,7 +33,7 @@ const BodyEnd = () => {
               Analytics. The architecture is clean and is relatively easy to
               learn.
             </p>
-            <h1 className="px-[20px] nsm:px-0 text-[40px] nsm:text-[25px] pt-[13%] nsm:pt-[50px] pb-[5%] nsm:pb-0 leading-[65px] nsm:whitespace-nowrap text-center nsm:text-left text-very-dark-blues font-semibold drop-shadow-lg">
+            <h1 className="px-[20px] nsm:px-0 text-[40px] nsm:text-[25px] pt-[13%] nsm:pt-[50px] pb-[5%] nsm:pb-0 leading-[50px] nsm:whitespace-nowrap text-center nsm:text-left text-very-dark-blues font-semibold drop-shadow-lg">
               Powerful tooling
             </h1>
             <p className="text-center nsm:text-left px-[10%] nsm:px-0 leading-[35px] nsm:leading-normal text-[20px] nsm:text-[16px] tracking-wide nsm:tracking-normal text-very-dark-grayish-blues/80 drop-shadow-[0_20px_20px_rgba(0,0,0,0.15)]">
