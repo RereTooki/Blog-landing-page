@@ -32,6 +32,8 @@
     @media (min-width: 760px) {
         .gradient2 {
             border-radius: 0 100px 0 100px; 
+            background-position: 50% 50%;  
+            background-size: 100%, cover;
         }
     }
 
