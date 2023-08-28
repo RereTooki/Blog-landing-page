@@ -7,7 +7,7 @@ const BodyMid = () => {
   return (
     <>
       <div className="gradient2 font-overpass text-center select-none flex flex-col nsm:flex-row nsm:text-left">
-        <div className="relative nsm:w-[160%] nsm:h-auto h-[250px]">
+        <div className="relative nsm:w-[160%] md:w-[100%] lg:w-[70%] nsm:h-auto h-[250px]">
           <img
             className="absolute nsm:bottom-[-60px] nsm:left-[20px] nsm:w-[550px] bottom-[-50px] nsm:h-[370px]"
             src={phones}
