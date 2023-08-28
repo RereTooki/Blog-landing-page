@@ -6,7 +6,7 @@ import phones from "../assets/images/illustration-phones.svg";
 const BodyMid = () => {
   return (
     <>
-      <div className="w-screen relative gradient2 font-overpass text-center select-none flex flex-col">
+      <div className=" overflow-hidden relative gradient2 font-overpass text-center select-none flex flex-col">
         <img
           className="tsranslate-y-[-44%] basis-0 absolute top-[-220px]"
           src={phones}
