@@ -1,6 +1,5 @@
 import React from "react";
 import "../App.css";
-import circles from "../assets/images/bg-pattern-circles.svg";
 import phones from "../assets/images/illustration-phones.svg";
 
 const BodyMid = () => {
