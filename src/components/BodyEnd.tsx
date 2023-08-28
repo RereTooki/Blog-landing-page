@@ -7,7 +7,7 @@ const BodyEnd = () => {
   return (
     <>
       <div className="overflow-hidden flex flex-col pt-[30%] nsm:pb-[20%] nsm:pt-[15%] items-center font-overpass select-none">
-        <div className="nsm:flex nsm:flex-row-reverse nsm:px-[10%] nsm:gap-x-[2%]">
+        <div className="nsm:flex nsm:flex-row nsm:px-[10%] nsm:gap-x-[2%]">
           <picture className="nsm:basis-0 nsm:grow nsm:shrink drop-shadow-[0_40px_40px_rgba(0,0,0,0.15)]">
             <source
               className=""
@@ -17,7 +17,7 @@ const BodyEnd = () => {
             <img
               src={laptopmobile}
               alt=""
-              className="nsm:translate-x-[44%] md:translate-x-[40%] nsm:translate-y-[60%] md:translate-y-0 nsm:scale-[1.7] w-[100%]"
+              className="nsm:translate-x-[-39%] nsm:translate-y-[60%] md:translate-y-0 nsm:scale-[1.7] w-[100%]"
             />
           </picture>
 
