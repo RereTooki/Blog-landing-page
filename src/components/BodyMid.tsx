@@ -7,9 +7,9 @@ const BodyMid = () => {
   return (
     <>
       <div className="gradient2 font-overpass text-center select-none flex flex-col nsm:flex-row nsm:text-left">
-        <div className="relative nsm:w-[160%] md:w-[100%] lg:w-[70%] nsm:h-auto h-[250px]">
+        <div className="relative nsm:w-[160%] md:w-[80%] lg:w-[70%] nsm:h-auto h-[250px]">
           <img
-            className="absolute nsm:bottom-[-60px] nsm:left-[20px] nsm:w-[550px] bottom-[-50px] nsm:h-[370px]"
+            className="absolute nsm:bottom-[-60px] md:bottom-[-70px] nsm:left-[20px] nsm:w-[550px] md:w-[450px] bottom-[-50px] nsm:h-[370px] md:h-[450px]"
             src={phones}
             alt="A couple of phones"
           />
@@ -18,7 +18,7 @@ const BodyMid = () => {
           <h1 className="text-[50px] nsm:text-[25px] leading-[60px]  font-semibold text-whites nsm:whitespace-nowrap">
             State of the Art Infrastructure
           </h1>
-          <p className="leading-[42px] nsm:leading-normal text-[24px] nsm:text-[14px] tracking-wide text-grayish-blues">
+          <p className="leading-[42px] nsm:leading-normal text-[24px] nsm:text-[16px] tracking-wide text-grayish-blues">
             With reliability and speed in mind, worldwide data centers provide
             the backbone for ultra-fast connectivity. This ensures your site
             will load instantly, no matter where your readers are, keeping your
