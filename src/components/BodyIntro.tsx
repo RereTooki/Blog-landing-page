@@ -7,7 +7,7 @@ const BodyIntro = () => {
   return (
     <>
       <div className="overflow-hidden flex flex-col pt-[30%] nsm:pb-[20%] nsm:pt-[15%] items-center font-overpass select-none">
-        <h1 className="text-[60px] nsm:pb-[2%] md:pb-[8%] leading-[65px] nsm:text-[35px] nsm:whitespace-nowrap text-center text-very-dark-blues font-semibold drop-shadow-lg">
+        <h1 className="text-[50px] nsm:pb-[2%] md:pb-[8%] leading-[60px] nsm:text-[35px] nsm:whitespace-nowrap text-center text-very-dark-blues font-semibold drop-shadow-lg">
           Designed for the future
         </h1>
         <div className="nsm:flex nsm:flex-row-reverse nsm:px-[10%] nsm:gap-x-[2%]">
@@ -20,12 +20,12 @@ const BodyIntro = () => {
             <img
               src={editormobile}
               alt=""
-              className="nsm:translate-x-[44%] md:translate-x-[40%] nsm:translate-y-[60%] md:translate-y-0 nsm:scale-[1.7] w-[100%]"
+              className="pt-[110px] nsm:pt-0 nsm:translate-x-[44%] md:translate-x-[40%] nsm:translate-y-[60%] md:translate-y-0 nsm:scale-[1.7] w-[100%]"
             />
           </picture>
 
           <div className="nsm:basis-0 nsm:grow nsm:shrink">
-            <h1 className="px-[20px] nsm:px-0 text-[40px] nsm:text-[25px] pt-[8%] pb-[4%] nsm:pb-0 leading-[50px] nsm:whitespace-nowrap text-center nsm:text-left text-very-dark-blues font-semibold drop-shadow-lg">
+            <h1 className="px-[20px] nsm:px-0 text-[40px] nsm:text-[25px] pt-[18%] nsm:pt-[8%] pb-[4%] nsm:pb-0 leading-[50px] nsm:whitespace-nowrap text-center nsm:text-left text-very-dark-blues font-semibold drop-shadow-lg">
               Introducing an extensible editor
             </h1>
             <p className="text-center nsm:text-left px-[10%] nsm:px-0 leading-[35px] nsm:leading-normal text-[20px] nsm:text-[16px] tracking-wide nsm:tracking-normal text-very-dark-grayish-blues/80 drop-shadow-[0_20px_20px_rgba(0,0,0,0.15)]">
