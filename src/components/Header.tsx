@@ -26,7 +26,7 @@ const Header = () => {
                 <div className="flex flex-col items-center">
                   <div className="">
                     <button
-                      className="flex flex-row pb-[15px] hover:underline underline-offset-4"
+                      className="flex flex-row pb-[15px] hover:underline focus:underline underline-offset-4"
                       onClick={() => {
                         if (isVisible2 === true) {
                           setIsVisible2(false);
@@ -101,7 +101,7 @@ const Header = () => {
                 <div className="flex flex-col items-center">
                   <div className="">
                     <button
-                      className="pt-[20px] pb-[15px] flex flex-row hover:underline underline-offset-4"
+                      className="pt-[20px] pb-[15px] flex flex-row hover:underline focus:underline underline-offset-4"
                       onClick={() => {
                         if (isVisible3 === true) {
                           setIsVisible3(false);
@@ -169,7 +169,7 @@ const Header = () => {
                 <div className="flex flex-col items-center pb-[20px]">
                   <div className="">
                     <button
-                      className="pt-[20px] pb-[15px] flex flex-row hover:underline underline-offset-4"
+                      className="pt-[20px] pb-[15px] flex flex-row hover:underline focus:underline underline-offset-4"
                       onClick={() => {
                         if (isVisible4 === true) {
                           setIsVisible4(false);
