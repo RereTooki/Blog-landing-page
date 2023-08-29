@@ -243,7 +243,7 @@ const Header = () => {
             </div>
           </div>
         )}
-        <div className="relative flex flex-col items-start vsm:hidden md:flex z-10">
+        <div className="relative vsm:hidden md:flex z-10">
           <div
             className="absolute top-[95px] left-[266px] p-[15px] rounded-[10px] bg-whites font-overpass shadow-[0_0_20px_2px_rgba(0,0,0,0.5)]"
             datas-aos="zoom-in"
@@ -288,7 +288,7 @@ const Header = () => {
             <p>aaa</p>
           </div>
           <div
-            className="absolute top-[95px] left-[398px] p-[15px] rounded-[10px] bg-whites font-overpass shadow-[0_0_20px_2px_rgba(0,0,0,0.5)]"
+            className="absolute top-[95px] left-[393px] p-[15px] rounded-[10px] bg-whites font-overpass shadow-[0_0_20px_2px_rgba(0,0,0,0.5)]"
             datas-aos="zoom-in"
             datsa-aos-duration="700"
           >
@@ -324,7 +324,7 @@ const Header = () => {
             <p>bbb</p>
           </div>
           <div
-            className="absolute top-[95px] left-[532px] p-[15px] rounded-[10px] bg-whites font-overpass shadow-[0_0_20px_2px_rgba(0,0,0,0.5)]"
+            className="absolute top-[95px] left-[529px] p-[15px] rounded-[10px] bg-whites font-overpass shadow-[0_0_20px_2px_rgba(0,0,0,0.5)]"
             datas-aos="zoom-in"
             datsa-aos-duration="700"
           >
@@ -381,7 +381,7 @@ const Header = () => {
                 alt="Arrow icon"
               />
             </button>
-            <button className="vsm:hidden md:flex pt-[5px]  pr-[30px] flex flex-row">
+            <button className="vsm:hidden md:flex pt-[5px] flex flex-row">
               <p className="text-whites/80 pr-[10px]">Connect</p>
               <img
                 className="w-[9px] h-[8px] mt-[8px]"
