@@ -7,7 +7,7 @@ const Header = () => {
   return (
     <>
       <div className="gradient overflow-hidden select-none">
-        <div className="pt-[80px] md:pt-[50px] pb-[200px] md:pb-[100px] flex flex-row justify-between">
+        <div className="pt-[80px] md:pt-[50px] pb-[200px] md:pb-[100px] flex flex-row justify-between font-overpass">
           <div className="flex flex-row">
             <img
               className="pl-[20px] md:pl-[100px]"
@@ -17,7 +17,7 @@ const Header = () => {
             <button className="vsm:hidden md:flex pt-[5px] pl-[65px] pr-[50px] flex flex-row">
               <p className="text-whites/80 pr-[10px]">Product</p>
               <img
-                className="w-[9px] h-[8px] mt-[10px]"
+                className="w-[9px] h-[8px] mt-[8px]"
                 src={iconarrow}
                 alt="Blogr's logo"
               />
@@ -25,7 +25,7 @@ const Header = () => {
             <button className="vsm:hidden md:flex pt-[5px]  pr-[50px] flex flex-row">
               <p className="text-whites/80 pr-[10px]">Company</p>
               <img
-                className="w-[9px] h-[8px] mt-[10px]"
+                className="w-[9px] h-[8px] mt-[8px]"
                 src={iconarrow}
                 alt="Blogr's logo"
               />
@@ -33,7 +33,7 @@ const Header = () => {
             <button className="vsm:hidden md:flex pt-[5px]  pr-[30px] flex flex-row">
               <p className="text-whites/80 pr-[10px]">Connect</p>
               <img
-                className="w-[9px] h-[8px] mt-[10px]"
+                className="w-[9px] h-[8px] mt-[8px]"
                 src={iconarrow}
                 alt="Blogr's logo"
               />
@@ -43,7 +43,7 @@ const Header = () => {
             <button className="vsm:hidden md:flex text-whites rounded-full px-[30px] py-[10px]">
               Login
             </button>
-            <button className="whitespace-nowrap vsm:hidden md:flex mr-[100px] text-light-reds ml-[30px] rounded-full bg-whites px-[30px] py-[10px] hover:bg-very-light-reds hover:text-whites">
+            <button className="whitespace-nowrap vsm:hidden md:flex mr-[100px] text-light-reds ml-[30px] rounded-full bg-whites px-[30px] pt-[11px] hover:bg-very-light-reds hover:text-whites font-semibold">
               Sign Up
             </button>
             <img

@@ -21,6 +21,10 @@
         }
     }
 
+
+
+
+    
     .gradient2 {
         background-image: url(./assets/images/bg-pattern-circles.svg), linear-gradient(to right, hsl(237, 17%, 21%), hsl(237, 23%, 32%));
         border-radius: 0 150px 0 150px; 

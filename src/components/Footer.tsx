@@ -1,16 +1,120 @@
 import React from "react";
 import "../App.css";
+import logo from "../assets/images/logo.svg";
+import iconarrow from "../assets/images/icon-arrow-light.svg";
 
 const Footer = () => {
   return (
     <>
-      <div className="border-4 relative">
-        <h1 className="h-[80px] w-[80px] bg-very-dark-grayish-blues">Rere</h1>
-        <h1 className="h-[80px] w-[80px] bg-grayish-blues">Rere</h1>
-        <div className="absolute z-[-1] left-5 bottom-5 h-[80px] w-[80px] bg-very-dark-blues">
-          Rere
+      <div className="items-center flex flex-col pt-[80px] bg-very-dark-black-blues rounded-tr-[150px] overflow-hidden select-none">
+        <div className="">
+          <img className="" src={logo} alt="Blogr's logo" />
         </div>
-        <h1 className="h-[80px] w-[80px] bg-grayish-blues">Rere</h1>
+        <div className="flex flex-col">
+          <div>
+            <button className=" pt-[40px]">
+              <p className="text-whites">Product</p>
+            </button>
+          </div>
+          <div>
+            <button className=" pt-[30px]">
+              <p className="text-grayish-blues hover:underline underline-offset-4">
+                Overview
+              </p>
+            </button>
+          </div>
+          <div>
+            <button className=" pt-[5px]">
+              <p className="text-grayish-blues hover:underline underline-offset-4">
+                Pricing
+              </p>
+            </button>
+          </div>
+          <div>
+            <button className=" pt-[5px]">
+              <p className="text-grayish-blues hover:underline underline-offset-4">
+                Marketplace
+              </p>
+            </button>
+          </div>
+          <div>
+            <button className=" pt-[5px]">
+              <p className="text-grayish-blues hover:underline underline-offset-4">
+                Features
+              </p>
+            </button>
+          </div>
+          <div>
+            <button className=" pt-[5px] pb-[50px]">
+              <p className="text-grayish-blues hover:underline underline-offset-4">
+                Integrations
+              </p>
+            </button>
+          </div>
+        </div>
+        <div className="flex flex-col pr-[20px]">
+          <div>
+            <button className="">
+              <p className="text-whites">Company</p>
+            </button>
+          </div>
+          <div>
+            <button className=" pt-[30px]">
+              <p className="text-grayish-blues hover:underline underline-offset-4">
+                About
+              </p>
+            </button>
+          </div>
+          <div>
+            <button className=" pt-[5px]">
+              <p className="text-grayish-blues hover:underline underline-offset-4">
+                Team
+              </p>
+            </button>
+          </div>
+          <div>
+            <button className=" pt-[5px]">
+              <p className="text-grayish-blues hover:underline underline-offset-4">
+                Blog
+              </p>
+            </button>
+          </div>
+          <div>
+            <button className=" pt-[5px] pb-[50px]">
+              <p className="text-grayish-blues hover:underline underline-offset-4">
+                Careers
+              </p>
+            </button>
+          </div>
+        </div>
+        <div className="flex flex-col pr-[12px]">
+          <div>
+            <button className="">
+              <p className="text-whites">Connect</p>
+            </button>
+          </div>
+          <div>
+            <button className=" pt-[30px]">
+              <p className="text-grayish-blues hover:underline underline-offset-4">
+                Contact
+              </p>
+            </button>
+          </div>
+          <div>
+            <button className=" pt-[5px]">
+              <p className="text-grayish-blues hover:underline underline-offset-4">
+                Newsletter
+              </p>
+            </button>
+          </div>
+          <div>
+            <button className=" pt-[5px] pb-[50px]">
+              <p className="text-grayish-blues hover:underline underline-offset-4">
+                LinkedIn
+              </p>
+            </button>
+          </div>
+        </div>
       </div>
     </>
   );

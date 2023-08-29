@@ -16,7 +16,7 @@ const Landingpage = () => {
           <BodyMid />
         </div>
         <BodyEnd />
-        {/* <Footer /> */}
+        <Footer />
       </div>
     </>
   );
