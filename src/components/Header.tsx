@@ -8,7 +8,7 @@ const Header = () => {
   return (
     <>
       <div className="gradient overflow-hidden select-none">
-        <div className="text-center flex flex-col items-center py-[40px] overfslow-hidden mx-[25%] rounded-[10px] bg-very-dark-desaturated-blues divide-y divide-solid font-overpass">
+        <div className="text-center flex flex-col items-center py-[40px] overfslow-hidden nsm:mx-[25%] vsm:mx-[15%] rounded-[10px] bg-very-dark-desaturated-blues divide-y divide-solid font-overpass">
           <div>
             <div className="flex flex-col">
               <div className="pl-[30px]">
