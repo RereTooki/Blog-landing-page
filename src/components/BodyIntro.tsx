@@ -10,7 +10,7 @@ const BodyIntro = () => {
         <h1
           className="text-[50px] nsm:pb-[2%] md:pb-[8%] leading-[60px] nsm:text-[35px] nsm:whitespace-nowrap text-center text-very-dark-blues font-semibold drop-shadow-lg"
           data-aos="fade-up"
-          data-aos-duration="700"
+          data-aos-duration="500"
         >
           Designed for the future
         </h1>
@@ -18,7 +18,7 @@ const BodyIntro = () => {
           <picture
             className="nsm:basis-0 nsm:grow nsm:shrink drop-shadow-[0_40px_40px_rgba(0,0,0,0.15)]"
             data-aos="zoom-in-left"
-            data-aos-duration="700"
+            data-aos-duration="500"
           >
             <source
               className=""
@@ -35,7 +35,7 @@ const BodyIntro = () => {
           <div
             className="nsm:basis-0 nsm:grow nsm:shrink"
             data-aos="fade-right"
-            data-aos-duration="700"
+            data-aos-duration="500"
           >
             <h1 className="px-[20px] nsm:px-0 text-[40px] nsm:text-[25px] pt-[18%] nsm:pt-[8%] pb-[4%] nsm:pb-0 leading-[50px] nsm:whitespace-nowrap text-center nsm:text-left text-very-dark-blues font-semibold drop-shadow-lg">
               Introducing an extensible editor
