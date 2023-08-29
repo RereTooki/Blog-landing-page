@@ -3,149 +3,153 @@ import logo from "../assets/images/logo.svg";
 import iconmenu from "../assets/images/icon-hamburger.svg";
 import iconarrow from "../assets/images/icon-arrow-light.svg";
 import iconarrowdark from "../assets/images/icon-arrow-dark.svg";
+import { useState } from "react";
 
 const Header = () => {
+  const [isVisible, setIsVisible] = useState(false);
   return (
     <>
       <div className="gradient select-none">
-        <div className="relative flex flex-col items-end">
-          <div className="z-10 absolute top-[150px] mr-[20px] w-[60vw] px-[12%] shadow-[0_0_20px_2px_rgba(0,0,0,0.5)] text-center py-[40px] rounded-[10px] bg-very-dark-desaturated-blues divide-y divide-solid font-overpass">
-            <div>
-              <div className="flex flex-col items-center">
-                <div className="">
-                  <button className=" flex flex-row">
-                    <p className="text-whites pr-[10px]">Product</p>
-                    <img
-                      className="w-[9px] h-[8px] mt-[7px]"
-                      src={iconarrowdark}
-                      alt="Arrow icon"
-                    />
-                  </button>
-                </div>
-                <div>
-                  <button className=" pt-[30px]">
-                    <p className="text-grayish-blues hover:underline underline-offset-4">
-                      Overview
-                    </p>
-                  </button>
-                </div>
-                <div>
-                  <button className=" pt-[5px]">
-                    <p className="text-grayish-blues hover:underline underline-offset-4">
-                      Pricing
-                    </p>
-                  </button>
-                </div>
-                <div>
-                  <button className=" pt-[5px]">
-                    <p className="text-grayish-blues hover:underline underline-offset-4">
-                      Marketplace
-                    </p>
-                  </button>
-                </div>
-                <div>
-                  <button className=" pt-[5px]">
-                    <p className="text-grayish-blues hover:underline underline-offset-4">
-                      Features
-                    </p>
-                  </button>
-                </div>
-                <div>
-                  <button className=" pt-[5px]">
-                    <p className="text-grayish-blues hover:underline underline-offset-4">
-                      Integrations
-                    </p>
-                  </button>
-                </div>
-              </div>
-              <div className="flex flex-col items-center">
-                <div className="">
-                  <button className="flex flex-row">
-                    <p className="text-whites pr-[10px]">Company</p>
-                    <img
-                      className="w-[9px] h-[8px] mt-[7px]"
-                      src={iconarrowdark}
-                      alt="Arrow icon"
-                    />
-                  </button>
-                </div>
-                <div>
-                  <button className=" pt-[30px]">
-                    <p className="text-grayish-blues hover:underline underline-offset-4">
-                      About
-                    </p>
-                  </button>
-                </div>
-                <div>
-                  <button className=" pt-[5px]">
-                    <p className="text-grayish-blues hover:underline underline-offset-4">
-                      Team
-                    </p>
-                  </button>
-                </div>
-                <div>
-                  <button className=" pt-[5px]">
-                    <p className="text-grayish-blues hover:underline underline-offset-4">
-                      Blog
-                    </p>
-                  </button>
-                </div>
-                <div>
-                  <button className=" pt-[5px]">
-                    <p className="text-grayish-blues hover:underline underline-offset-4">
-                      Careers
-                    </p>
-                  </button>
-                </div>
-              </div>
-              <div className="flex flex-col items-center">
-                <div className="">
-                  <button className="flex flex-row">
-                    <p className="text-whites pr-[10px]">Connect</p>
-                    <img
-                      className="w-[9px] h-[8px] mt-[7px]"
-                      src={iconarrowdark}
-                      alt="Arrow icon"
-                    />
-                  </button>
-                </div>
-                <div>
-                  <button className=" pt-[30px]">
-                    <p className="text-grayish-blues hover:underline underline-offset-4">
-                      Contact
-                    </p>
-                  </button>
-                </div>
-                <div>
-                  <button className=" pt-[5px]">
-                    <p className="text-grayish-blues hover:underline underline-offset-4">
-                      Newsletter
-                    </p>
-                  </button>
-                </div>
-                <div>
-                  <button className=" pt-[5px] pb-[20px]">
-                    <p className="text-grayish-blues hover:underline underline-offset-4">
-                      LinkedIn
-                    </p>
-                  </button>
-                </div>
-              </div>
-            </div>
-            <div className="gap-[12px] pt-[35px] flex flex-col font-bold">
+        {isVisible && (
+          <div className="relative flex flex-col items-end">
+            <div className="z-10 absolute top-[150px] mr-[20px] w-[60vw] px-[12%] shadow-[0_0_20px_2px_rgba(0,0,0,0.5)] text-center py-[40px] rounded-[10px] bg-very-dark-desaturated-blues divide-y divide-solid font-overpass">
               <div>
-                <button className="text-whites border-4 rounded-full px-[30px] py-[10px]">
-                  Login
-                </button>
+                <div className="flex flex-col items-center">
+                  <div className="">
+                    <button className=" flex flex-row">
+                      <p className="text-whites pr-[10px]">Product</p>
+                      <img
+                        className="w-[9px] h-[8px] mt-[7px]"
+                        src={iconarrowdark}
+                        alt="Arrow icon"
+                      />
+                    </button>
+                  </div>
+                  <div>
+                    <button className=" pt-[30px]">
+                      <p className="text-grayish-blues hover:underline underline-offset-4">
+                        Overview
+                      </p>
+                    </button>
+                  </div>
+                  <div>
+                    <button className=" pt-[5px]">
+                      <p className="text-grayish-blues hover:underline underline-offset-4">
+                        Pricing
+                      </p>
+                    </button>
+                  </div>
+                  <div>
+                    <button className=" pt-[5px]">
+                      <p className="text-grayish-blues hover:underline underline-offset-4">
+                        Marketplace
+                      </p>
+                    </button>
+                  </div>
+                  <div>
+                    <button className=" pt-[5px]">
+                      <p className="text-grayish-blues hover:underline underline-offset-4">
+                        Features
+                      </p>
+                    </button>
+                  </div>
+                  <div>
+                    <button className=" pt-[5px]">
+                      <p className="text-grayish-blues hover:underline underline-offset-4">
+                        Integrations
+                      </p>
+                    </button>
+                  </div>
+                </div>
+                <div className="flex flex-col items-center">
+                  <div className="">
+                    <button className="flex flex-row">
+                      <p className="text-whites pr-[10px]">Company</p>
+                      <img
+                        className="w-[9px] h-[8px] mt-[7px]"
+                        src={iconarrowdark}
+                        alt="Arrow icon"
+                      />
+                    </button>
+                  </div>
+                  <div>
+                    <button className=" pt-[30px]">
+                      <p className="text-grayish-blues hover:underline underline-offset-4">
+                        About
+                      </p>
+                    </button>
+                  </div>
+                  <div>
+                    <button className=" pt-[5px]">
+                      <p className="text-grayish-blues hover:underline underline-offset-4">
+                        Team
+                      </p>
+                    </button>
+                  </div>
+                  <div>
+                    <button className=" pt-[5px]">
+                      <p className="text-grayish-blues hover:underline underline-offset-4">
+                        Blog
+                      </p>
+                    </button>
+                  </div>
+                  <div>
+                    <button className=" pt-[5px]">
+                      <p className="text-grayish-blues hover:underline underline-offset-4">
+                        Careers
+                      </p>
+                    </button>
+                  </div>
+                </div>
+                <div className="flex flex-col items-center">
+                  <div className="">
+                    <button className="flex flex-row">
+                      <p className="text-whites pr-[10px]">Connect</p>
+                      <img
+                        className="w-[9px] h-[8px] mt-[7px]"
+                        src={iconarrowdark}
+                        alt="Arrow icon"
+                      />
+                    </button>
+                  </div>
+                  <div>
+                    <button className=" pt-[30px]">
+                      <p className="text-grayish-blues hover:underline underline-offset-4">
+                        Contact
+                      </p>
+                    </button>
+                  </div>
+                  <div>
+                    <button className=" pt-[5px]">
+                      <p className="text-grayish-blues hover:underline underline-offset-4">
+                        Newsletter
+                      </p>
+                    </button>
+                  </div>
+                  <div>
+                    <button className=" pt-[5px] pb-[20px]">
+                      <p className="text-grayish-blues hover:underline underline-offset-4">
+                        LinkedIn
+                      </p>
+                    </button>
+                  </div>
+                </div>
               </div>
-              <div>
-                <button className="gradientbutton whitespace-nowrap text-whites rounded-full px-[30px] py-[11px] font-semibold">
-                  Sign Up
-                </button>
+              <div className="gap-[12px] pt-[35px] flex flex-col font-bold">
+                <div>
+                  <button className="text-whites border-4 rounded-full px-[30px] py-[10px]">
+                    Login
+                  </button>
+                </div>
+                <div>
+                  <button className="gradientbutton whitespace-nowrap text-whites rounded-full px-[30px] py-[11px] font-semibold">
+                    Sign Up
+                  </button>
+                </div>
               </div>
             </div>
           </div>
-        </div>
+        )}
 
         <div
           className="pt-[80px] md:pt-[50px] pb-[200px] md:pb-[100px] flex flex-row justify-between font-overpass"
@@ -190,11 +194,13 @@ const Header = () => {
             <button className="whitespace-nowrap vsm:hidden md:flex mr-[100px] text-light-reds ml-[30px] rounded-full bg-whites px-[30px] pt-[11px] hover:bg-very-light-reds hover:text-whites font-semibold">
               Sign Up
             </button>
-            <img
-              className="md:hidden cursor-pointer pr-[20px] md:pr-[100px] pt-[10px]"
-              src={iconmenu}
-              alt="A menu icon"
-            />
+            <button onClick={() => setIsVisible(true)}>
+              <img
+                className="md:hidden cursor-pointer pr-[20px] md:pr-[100px] pt-[10px]"
+                src={iconmenu}
+                alt="A menu icon"
+              />
+            </button>
           </div>
         </div>
         <div
