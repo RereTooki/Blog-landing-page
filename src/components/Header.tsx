@@ -21,8 +21,8 @@ const Header = () => {
         {isVisible && (
           <div
             className="relative flex flex-col items-end md:hidden z-10"
-            data-aos="zoom-in-left"
-            data-aos-duration="700"
+            data-aossorry="zoom-in-left"
+            data-aossorry-duration="700"
           >
             <div className=" absolute top-[150px] mr-[20px] w-[60vw] px-[8%] shadow-[0_0_20px_2px_rgba(0,0,0,0.5)] text-center py-[40px] rounded-[10px] bg-whites divide-y divide-solid font-overpass">
               <div>
@@ -49,8 +49,8 @@ const Header = () => {
                           className="w-[9px] h-[8px] mt-[7px]"
                           src={iconarrowdark}
                           alt="Arrow icon"
-                          data-aos="zoom-in"
-                          data-aos-duration="700"
+                          data-aossorry="zoom-in"
+                          data-aossorry-duration="700"
                         />
                       )}
                       {isVisible2 && (
@@ -65,8 +65,8 @@ const Header = () => {
                   {isVisible2 && (
                     <div
                       className="bg-grayish-blues/30 py-[15px] w-[100%] rounded-[10px]"
-                      data-aos="fade-left"
-                      data-aos-duration="700"
+                      data-aossorry="fade-left"
+                      data-aossorry-duration="700"
                     >
                       <div>
                         <button className="">
@@ -129,8 +129,8 @@ const Header = () => {
                           className="w-[9px] h-[8px] mt-[7px]"
                           src={iconarrowdark}
                           alt="Arrow icon"
-                          data-aos="zoom-in"
-                          data-aos-duration="700"
+                          data-aossorry="zoom-in"
+                          data-aossorry-duration="700"
                         />
                       )}
                       {isVisible3 && (
@@ -145,8 +145,8 @@ const Header = () => {
                   {isVisible3 && (
                     <div
                       className="bg-grayish-blues/30 py-[15px] w-[100%] rounded-[10px]"
-                      data-aos="fade-left"
-                      data-aos-duration="700"
+                      data-aossorry="fade-left"
+                      data-aossorry-duration="700"
                     >
                       <div>
                         <button className="">
@@ -202,8 +202,8 @@ const Header = () => {
                           className="w-[9px] h-[8px] mt-[7px]"
                           src={iconarrowdark}
                           alt="Arrow icon"
-                          data-aos="zoom-in"
-                          data-aos-duration="700"
+                          data-aossorry="zoom-in"
+                          data-aossorry-duration="700"
                         />
                       )}
                       {isVisible4 && (
@@ -218,8 +218,8 @@ const Header = () => {
                   {isVisible4 && (
                     <div
                       className="bg-grayish-blues/30 py-[15px] w-[100%] rounded-[10px]"
-                      data-aos="fade-left"
-                      data-aos-duration="700"
+                      data-aossorry="fade-left"
+                      data-aossorry-duration="700"
                     >
                       <div>
                         <button className="">
@@ -265,8 +265,8 @@ const Header = () => {
           {isVisible5 && (
             <div
               className="absolute top-[105px] left-[266px] p-[15px] rounded-[10px] bg-whites font-overpass shadow-[0_0_20px_2px_rgba(0,0,0,0.5)]"
-              data-aos="zoom-in"
-              data-aos-duration="500"
+              data-aossorry="zoom-in"
+              data-aossorry-duration="500"
             >
               <div>
                 <button className="">
@@ -308,8 +308,8 @@ const Header = () => {
           {isVisible6 && (
             <div
               className="absolute top-[105px] left-[393px] p-[15px] rounded-[10px] bg-whites font-overpass shadow-[0_0_20px_2px_rgba(0,0,0,0.5)]"
-              data-aos="zoom-in"
-              data-aos-duration="500"
+              data-aossorry="zoom-in"
+              data-aossorry-duration="500"
             >
               <div>
                 <button className="">
@@ -344,8 +344,8 @@ const Header = () => {
           {isVisible7 && (
             <div
               className="absolute top-[105px] left-[529px] p-[15px] rounded-[10px] bg-whites font-overpass shadow-[0_0_20px_2px_rgba(0,0,0,0.5)]"
-              data-aos="zoom-in"
-              data-aos-duration="500"
+              data-aossorry="zoom-in"
+              data-aossorry-duration="500"
             >
               <div>
                 <button className="">
@@ -374,8 +374,8 @@ const Header = () => {
 
         <div
           className="pt-[80px] md:pt-[50px] pb-[200px] md:pb-[100px] flex flex-row justify-between font-overpass"
-          data-aos="zoom-in"
-          data-aos-duration="700"
+          data-aossorry="zoom-in"
+          data-aossorry-duration="700"
         >
           <div className="flex flex-row">
             <img
@@ -403,8 +403,8 @@ const Header = () => {
                   className="w-[9px] h-[8px] mt-[8px]"
                   src={iconarrow}
                   alt="Arrow icon"
-                  data-aos="zoom-in"
-                  data-aos-duration="500"
+                  data-aossorry="zoom-in"
+                  data-aossorry-duration="500"
                 />
               )}
               {isVisible5 && (
@@ -435,8 +435,8 @@ const Header = () => {
                   className="w-[9px] h-[8px] mt-[8px]"
                   src={iconarrow}
                   alt="Arrow icon"
-                  data-aos="zoom-in"
-                  data-aos-duration="500"
+                  data-aossorry="zoom-in"
+                  data-aossorry-duration="500"
                 />
               )}
               {isVisible6 && (
@@ -467,8 +467,8 @@ const Header = () => {
                   className="w-[9px] h-[8px] mt-[8px]"
                   src={iconarrow}
                   alt="Arrow icon"
-                  data-aos="zoom-in"
-                  data-aos-duration="500"
+                  data-aossorry="zoom-in"
+                  data-aossorry-duration="500"
                 />
               )}
               {isVisible7 && (
@@ -498,8 +498,8 @@ const Header = () => {
                   setIsVisible6(false);
                   setIsVisible7(false);
                 }}
-                data-aos="zoom-in"
-                data-aos-duration="700"
+                data-aossorry="zoom-in"
+                data-aossorry-duration="700"
               >
                 <img
                   className="md:hidden cursor-pointer pr-[20px] md:pr-[100px] pt-[10px]"
@@ -519,8 +519,8 @@ const Header = () => {
                   setIsVisible6(false);
                   setIsVisible7(false);
                 }}
-                data-aos="zoom-in"
-                data-aos-duration="700"
+                data-aossorry="zoom-in"
+                data-aossorry-duration="700"
               >
                 <img
                   className="md:hidden cursor-pointer pr-[20px] md:pr-[100px] pt-[10px]"
@@ -533,8 +533,8 @@ const Header = () => {
         </div>
         <div
           className="font-overpass px-[10px] text-whites pb-[80px] md:pb-[40px] text-center"
-          data-aos="zoom-in"
-          data-aos-duration="700"
+          data-aossorry="zoom-in"
+          data-aossorry-duration="700"
         >
           <h1 className="text-[60px] leading-[70px] md:text-[70px] md:leading-[75px]">
             A modern publishing platform
@@ -545,8 +545,8 @@ const Header = () => {
         </div>
         <div
           className="font-ubuntu pb-[150px] md:pb-[100px] font-bold flex flex-row justify-center"
-          data-aos="zoom-in"
-          data-aos-duration="700"
+          data-aossorry="zoom-in"
+          data-aossorry-duration="700"
         >
           <button className="text-light-reds mr-[10px] rounded-full bg-whites py-[10px] px-[15px] hover:bg-very-light-reds hover:text-whites">
             Start for Free
