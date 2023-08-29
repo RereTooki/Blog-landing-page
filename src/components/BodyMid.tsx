@@ -6,14 +6,22 @@ const BodyMid = () => {
   return (
     <>
       <div className="gradient2 font-overpass text-center select-none flex flex-col nsm:flex-row nsm:text-left">
-        <div className="relative nsm:w-[160%] md:w-[100%] lg:w-[70%] nsm:h-auto h-[250px]">
+        <div
+          className="relative nsm:w-[160%] md:w-[100%] lg:w-[70%] nsm:h-auto h-[250px]"
+          data-aos="fade-right"
+          data-aos-duration="700"
+        >
           <img
             className="absolute nsm:bottom-[-60px] md:bottom-[-70px] nsm:left-[20px] nsm:w-[550px] md:w-[450px] bottom-[-50px] nsm:h-[400px] md:h-[430px]"
             src={phones}
             alt="A couple of phones"
           />
         </div>
-        <div className="px-[10%] pt-[4%] pb-[40px] nsm:pl-[2%] nsm:py-[7%]">
+        <div
+          className="px-[10%] pt-[4%] pb-[40px] nsm:pl-[2%] nsm:py-[7%]"
+          data-aos="fade-up"
+          data-aos-duration="700"
+        >
           <h1 className="text-[50px] nsm:text-[25px] leading-[60px]  font-semibold text-whites nsm:whitespace-nowrap">
             State of the Art Infrastructure
           </h1>
