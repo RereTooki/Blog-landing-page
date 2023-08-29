@@ -1,4 +1,3 @@
-import React from "react";
 import "../App.css";
 import editormobile from "../assets/images/illustration-editor-mobile.svg";
 import editordesktop from "../assets/images/illustration-editor-desktop.svg";
