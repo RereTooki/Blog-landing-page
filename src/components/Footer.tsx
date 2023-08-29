@@ -1,7 +1,6 @@
 import React from "react";
 import "../App.css";
 import logo from "../assets/images/logo.svg";
-import iconarrow from "../assets/images/icon-arrow-light.svg";
 
 const Footer = () => {
   return (
@@ -115,6 +114,20 @@ const Footer = () => {
             </button>
           </div>
         </div>
+      </div>
+      <div className="attribution bg-very-dark-black-blues pb-[20px] underline-offset-4">
+        Challenge by{" "}
+        <a href="https://www.frontendmentor.io?ref=challenge" target="_blank">
+          Frontend Mentor
+        </a>
+        . Coded by{" "}
+        <a
+          href="https://linkedin.com/in/rerel-oluwa-tooki-b53396253/"
+          target="_blank"
+        >
+          Rere Tooki
+        </a>
+        .
       </div>
     </>
   );
