@@ -13,9 +13,7 @@ const Footer = () => {
         <div className="flex flex-col">
           <div>
             <button className="pt-[40px] nsm:pt-0">
-              <p className="text-whites hover:outline hover:outline-0">
-                Product
-              </p>
+              <p className="text-whites">Product</p>
             </button>
           </div>
           <div>
