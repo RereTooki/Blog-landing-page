@@ -6,14 +6,16 @@ import iconarrow from "../assets/images/icon-arrow-light.svg";
 const Footer = () => {
   return (
     <>
-      <div className="items-center flex flex-col pt-[80px] bg-very-dark-black-blues rounded-tr-[150px] overflow-hidden select-none">
+      <div className="items-center nsm:items-start flex flex-col nsm:flex-row nsm:justify-evenly pt-[80px] nsm:pt-[70px] bg-very-dark-black-blues rounded-tr-[150px] overflow-hidden select-none">
         <div className="">
           <img className="" src={logo} alt="Blogr's logo" />
         </div>
         <div className="flex flex-col">
           <div>
-            <button className=" pt-[40px]">
-              <p className="text-whites">Product</p>
+            <button className="pt-[40px] nsm:pt-0">
+              <p className="text-whites hover:outline hover:outline-0">
+                Product
+              </p>
             </button>
           </div>
           <div>
