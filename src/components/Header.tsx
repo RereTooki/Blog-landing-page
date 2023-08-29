@@ -206,7 +206,11 @@ const Header = () => {
               Sign Up
             </button>
             {isVisible && (
-              <button onClick={() => setIsVisible(false)}>
+              <button
+                onClick={() => setIsVisible(false)}
+                data-aos="zoom-in"
+                data-aos-duration="700"
+              >
                 <img
                   className="md:hidden cursor-pointer pr-[20px] md:pr-[100px] pt-[10px]"
                   src={iconmenuclose}
@@ -215,7 +219,11 @@ const Header = () => {
               </button>
             )}
             {isVisible || (
-              <button onClick={() => setIsVisible(true)}>
+              <button
+                onClick={() => setIsVisible(true)}
+                data-aos="zoom-in"
+                data-aos-duration="700"
+              >
                 <img
                   className="md:hidden cursor-pointer pr-[20px] md:pr-[100px] pt-[10px]"
                   src={iconmenu}
