@@ -12,8 +12,12 @@ const Header = () => {
     <>
       <div className="gradient select-none">
         {isVisible && (
-          <div className="relative flex flex-col items-end md:hidden">
-            <div className="z-10 absolute top-[150px] mr-[20px] w-[60vw] px-[8%] shadow-[0_0_20px_2px_rgba(0,0,0,0.5)] text-center py-[40px] rounded-[10px] bg-whites divide-y divide-solid font-overpass">
+          <div
+            className="relative flex flex-col items-end md:hidden z-10"
+            data-aos="zoom-in-left"
+            data-aos-duration="700"
+          >
+            <div className=" absolute top-[150px] mr-[20px] w-[60vw] px-[8%] shadow-[0_0_20px_2px_rgba(0,0,0,0.5)] text-center py-[40px] rounded-[10px] bg-whites divide-y divide-solid font-overpass">
               <div>
                 <div className="flex flex-col items-center">
                   <div className="">
