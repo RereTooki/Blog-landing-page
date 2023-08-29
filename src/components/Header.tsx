@@ -13,12 +13,14 @@ const Header = () => {
       <div className="gradient select-none">
         {isVisible && (
           <div className="relative flex flex-col items-end md:hidden">
-            <div className="z-10 absolute top-[150px] mr-[20px] w-[60vw] px-[12%] shadow-[0_0_20px_2px_rgba(0,0,0,0.5)] text-center py-[40px] rounded-[10px] bg-very-dark-desaturated-blues divide-y divide-solid font-overpass">
+            <div className="z-10 absolute top-[150px] mr-[20px] w-[60vw] px-[8%] shadow-[0_0_20px_2px_rgba(0,0,0,0.5)] text-center py-[40px] rounded-[10px] bg-whites divide-y divide-solid font-overpass">
               <div>
                 <div className="flex flex-col items-center">
                   <div className="">
                     <button className=" flex flex-row">
-                      <p className="text-whites pr-[10px]">Product</p>
+                      <p className="text-very-dark-blues font-semibold pr-[10px]">
+                        Product
+                      </p>
                       <img
                         className="w-[9px] h-[8px] mt-[7px]"
                         src={iconarrowdark}
@@ -28,35 +30,35 @@ const Header = () => {
                   </div>
                   <div>
                     <button className=" pt-[30px]">
-                      <p className="text-grayish-blues hover:underline underline-offset-4">
+                      <p className="text-very-dark-blues hover:underline underline-offset-4">
                         Overview
                       </p>
                     </button>
                   </div>
                   <div>
                     <button className=" pt-[5px]">
-                      <p className="text-grayish-blues hover:underline underline-offset-4">
+                      <p className="text-very-dark-blues hover:underline underline-offset-4">
                         Pricing
                       </p>
                     </button>
                   </div>
                   <div>
                     <button className=" pt-[5px]">
-                      <p className="text-grayish-blues hover:underline underline-offset-4">
+                      <p className="text-very-dark-blues hover:underline underline-offset-4">
                         Marketplace
                       </p>
                     </button>
                   </div>
                   <div>
                     <button className=" pt-[5px]">
-                      <p className="text-grayish-blues hover:underline underline-offset-4">
+                      <p className="text-very-dark-blues hover:underline underline-offset-4">
                         Features
                       </p>
                     </button>
                   </div>
                   <div>
                     <button className=" pt-[5px]">
-                      <p className="text-grayish-blues hover:underline underline-offset-4">
+                      <p className="text-very-dark-blues hover:underline underline-offset-4">
                         Integrations
                       </p>
                     </button>
@@ -64,8 +66,10 @@ const Header = () => {
                 </div>
                 <div className="flex flex-col items-center">
                   <div className="">
-                    <button className="flex flex-row">
-                      <p className="text-whites pr-[10px]">Company</p>
+                    <button className="pt-[30px] flex flex-row">
+                      <p className="text-very-dark-blues font-semibold  pr-[10px]">
+                        Company
+                      </p>
                       <img
                         className="w-[9px] h-[8px] mt-[7px]"
                         src={iconarrowdark}
@@ -75,28 +79,28 @@ const Header = () => {
                   </div>
                   <div>
                     <button className=" pt-[30px]">
-                      <p className="text-grayish-blues hover:underline underline-offset-4">
+                      <p className="text-very-dark-blues hover:underline underline-offset-4">
                         About
                       </p>
                     </button>
                   </div>
                   <div>
                     <button className=" pt-[5px]">
-                      <p className="text-grayish-blues hover:underline underline-offset-4">
+                      <p className="text-very-dark-blues hover:underline underline-offset-4">
                         Team
                       </p>
                     </button>
                   </div>
                   <div>
                     <button className=" pt-[5px]">
-                      <p className="text-grayish-blues hover:underline underline-offset-4">
+                      <p className="text-very-dark-blues hover:underline underline-offset-4">
                         Blog
                       </p>
                     </button>
                   </div>
                   <div>
                     <button className=" pt-[5px]">
-                      <p className="text-grayish-blues hover:underline underline-offset-4">
+                      <p className="text-very-dark-blues hover:underline underline-offset-4">
                         Careers
                       </p>
                     </button>
@@ -104,8 +108,10 @@ const Header = () => {
                 </div>
                 <div className="flex flex-col items-center">
                   <div className="">
-                    <button className="flex flex-row">
-                      <p className="text-whites pr-[10px]">Connect</p>
+                    <button className="pt-[30px] flex flex-row">
+                      <p className="text-very-dark-blues font-semibold pr-[10px]">
+                        Connect
+                      </p>
                       <img
                         className="w-[9px] h-[8px] mt-[7px]"
                         src={iconarrowdark}
@@ -115,21 +121,21 @@ const Header = () => {
                   </div>
                   <div>
                     <button className=" pt-[30px]">
-                      <p className="text-grayish-blues hover:underline underline-offset-4">
+                      <p className="text-very-dark-blues hover:underline underline-offset-4">
                         Contact
                       </p>
                     </button>
                   </div>
                   <div>
                     <button className=" pt-[5px]">
-                      <p className="text-grayish-blues hover:underline underline-offset-4">
+                      <p className="text-very-dark-blues hover:underline underline-offset-4">
                         Newsletter
                       </p>
                     </button>
                   </div>
                   <div>
                     <button className=" pt-[5px] pb-[20px]">
-                      <p className="text-grayish-blues hover:underline underline-offset-4">
+                      <p className="text-very-dark-blues hover:underline underline-offset-4">
                         LinkedIn
                       </p>
                     </button>
@@ -138,7 +144,7 @@ const Header = () => {
               </div>
               <div className="gap-[12px] pt-[35px] flex flex-col font-bold">
                 <div>
-                  <button className="text-whites border-4 rounded-full px-[30px] py-[10px]">
+                  <button className="text-very-dark-blues rounded-full px-[30px] py-[10px]">
                     Login
                   </button>
                 </div>
