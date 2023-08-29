@@ -243,6 +243,116 @@ const Header = () => {
             </div>
           </div>
         )}
+        <div className="relative flex flex-col items-start vsm:hidden md:flex z-10">
+          <div
+            className="absolute top-[95px] left-[266px] p-[15px] rounded-[10px] bg-whites font-overpass shadow-[0_0_20px_2px_rgba(0,0,0,0.5)]"
+            datas-aos="zoom-in"
+            datsa-aos-duration="700"
+          >
+            <div>
+              <button className="">
+                <p className="text-very-dark-blues hover:font-semibold hover:underline underline-offset-4">
+                  Overview
+                </p>
+              </button>
+            </div>
+            <div>
+              <button className=" pt-[5px]">
+                <p className="text-very-dark-blues hover:font-semibold hover:underline underline-offset-4">
+                  Pricing
+                </p>
+              </button>
+            </div>
+            <div>
+              <button className=" pt-[5px]">
+                <p className="text-very-dark-blues hover:font-semibold hover:underline underline-offset-4">
+                  Marketplace
+                </p>
+              </button>
+            </div>
+            <div>
+              <button className=" pt-[5px]">
+                <p className="text-very-dark-blues hover:font-semibold hover:underline underline-offset-4">
+                  Features
+                </p>
+              </button>
+            </div>
+            <div>
+              <button className=" pt-[5px]">
+                <p className="text-very-dark-blues hover:font-semibold hover:underline underline-offset-4">
+                  Integrations
+                </p>
+              </button>
+            </div>
+
+            <p>aaa</p>
+          </div>
+          <div
+            className="absolute top-[95px] left-[398px] p-[15px] rounded-[10px] bg-whites font-overpass shadow-[0_0_20px_2px_rgba(0,0,0,0.5)]"
+            datas-aos="zoom-in"
+            datsa-aos-duration="700"
+          >
+            <div>
+              <button className="">
+                <p className="text-very-dark-blues hover:font-semibold hover:underline underline-offset-4">
+                  About
+                </p>
+              </button>
+            </div>
+            <div>
+              <button className=" pt-[5px]">
+                <p className="text-very-dark-blues hover:font-semibold hover:underline underline-offset-4">
+                  Team
+                </p>
+              </button>
+            </div>
+            <div>
+              <button className=" pt-[5px]">
+                <p className="text-very-dark-blues hover:font-semibold hover:underline underline-offset-4">
+                  Blog
+                </p>
+              </button>
+            </div>
+            <div>
+              <button className=" pt-[5px]">
+                <p className="text-very-dark-blues hover:font-semibold hover:underline underline-offset-4">
+                  Careers
+                </p>
+              </button>
+            </div>
+
+            <p>bbb</p>
+          </div>
+          <div
+            className="absolute top-[95px] left-[532px] p-[15px] rounded-[10px] bg-whites font-overpass shadow-[0_0_20px_2px_rgba(0,0,0,0.5)]"
+            datas-aos="zoom-in"
+            datsa-aos-duration="700"
+          >
+            <div>
+              <button className="">
+                <p className="text-very-dark-blues hover:font-semibold hover:underline underline-offset-4">
+                  Contact
+                </p>
+              </button>
+            </div>
+            <div>
+              <button className=" pt-[5px]">
+                <p className="text-very-dark-blues hover:font-semibold hover:underline underline-offset-4">
+                  Newsletter
+                </p>
+              </button>
+            </div>
+            <div>
+              <button className=" pt-[5px]">
+                <p className="text-very-dark-blues hover:font-semibold hover:underline underline-offset-4">
+                  LinkedIn
+                </p>
+              </button>
+            </div>
+
+            <p>ccc</p>
+          </div>
+        </div>
 
         <div
           className="pt-[80px] md:pt-[50px] pb-[200px] md:pb-[100px] flex flex-row justify-between font-overpass"
