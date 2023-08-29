@@ -1,6 +1,7 @@
 import "../App.css";
 import logo from "../assets/images/logo.svg";
 import iconmenu from "../assets/images/icon-hamburger.svg";
+import iconmenuclose from "../assets/images/icon-close.svg";
 import iconarrow from "../assets/images/icon-arrow-light.svg";
 import iconarrowdark from "../assets/images/icon-arrow-dark.svg";
 import { useState } from "react";
@@ -11,7 +12,7 @@ const Header = () => {
     <>
       <div className="gradient select-none">
         {isVisible && (
-          <div className="relative flex flex-col items-end">
+          <div className="relative flex flex-col items-end md:hidden">
             <div className="z-10 absolute top-[150px] mr-[20px] w-[60vw] px-[12%] shadow-[0_0_20px_2px_rgba(0,0,0,0.5)] text-center py-[40px] rounded-[10px] bg-very-dark-desaturated-blues divide-y divide-solid font-overpass">
               <div>
                 <div className="flex flex-col items-center">
@@ -194,13 +195,24 @@ const Header = () => {
             <button className="whitespace-nowrap vsm:hidden md:flex mr-[100px] text-light-reds ml-[30px] rounded-full bg-whites px-[30px] pt-[11px] hover:bg-very-light-reds hover:text-whites font-semibold">
               Sign Up
             </button>
-            <button onClick={() => setIsVisible(true)}>
-              <img
-                className="md:hidden cursor-pointer pr-[20px] md:pr-[100px] pt-[10px]"
-                src={iconmenu}
-                alt="A menu icon"
-              />
-            </button>
+            {isVisible && (
+              <button onClick={() => setIsVisible(false)}>
+                <img
+                  className="md:hidden cursor-pointer pr-[20px] md:pr-[100px] pt-[10px]"
+                  src={iconmenuclose}
+                  alt="A menu icon"
+                />
+              </button>
+            )}
+            {isVisible || (
+              <button onClick={() => setIsVisible(true)}>
+                <img
+                  className="md:hidden cursor-pointer pr-[20px] md:pr-[100px] pt-[10px]"
+                  src={iconmenu}
+                  alt="A menu icon"
+                />
+              </button>
+            )}
           </div>
         </div>
         <div
