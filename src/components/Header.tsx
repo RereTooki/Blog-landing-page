@@ -9,6 +9,9 @@ import { useState } from "react";
 const Header = () => {
   const [isVisible, setIsVisible] = useState(false);
   const [isVisible2, setIsVisible2] = useState(false);
+  const [isVisible3, setIsVisible3] = useState(false);
+  const [isVisible4, setIsVisible4] = useState(false);
+
   return (
     <>
       <div className="gradient select-none">
@@ -23,21 +26,40 @@ const Header = () => {
                 <div className="flex flex-col items-center">
                   <div className="">
                     <button
-                      className="flex flex-row  pb-[15px]"
-                      onClick={() => setIsVisible2(true)}
+                      className="flex flex-row pb-[15px] hover:underline underline-offset-4"
+                      onClick={() => {
+                        if (isVisible2 === true) {
+                          setIsVisible2(false);
+                        } else setIsVisible2(true);
+                      }}
                     >
                       <p className="text-very-dark-blues font-semibold pr-[10px]">
                         Product
                       </p>
-                      <img
-                        className="w-[9px] h-[8px] mt-[7px]"
-                        src={iconarrowdark}
-                        alt="Arrow icon"
-                      />
+                      {isVisible2 || (
+                        <img
+                          className="w-[9px] h-[8px] mt-[7px]"
+                          src={iconarrowdark}
+                          alt="Arrow icon"
+                          data-aos="zoom-in"
+                          data-aos-duration="700"
+                        />
+                      )}
+                      {isVisible2 && (
+                        <img
+                          className="w-[9px] h-[8px] mt-[7px] gradient5"
+                          src={iconarrowdark}
+                          alt="Arrow icon"
+                        />
+                      )}
                     </button>
                   </div>
                   {isVisible2 && (
-                    <div className="bg-grayish-blues/30 py-[15px] w-[100%] rounded-[10px]">
+                    <div
+                      className="bg-grayish-blues/30 py-[15px] w-[100%] rounded-[10px]"
+                      data-aos="fade-left"
+                      data-aos-duration="700"
+                    >
                       <div>
                         <button className="">
                           <p className="text-very-dark-blues hover:underline underline-offset-4">
@@ -78,94 +100,142 @@ const Header = () => {
                 </div>
                 <div className="flex flex-col items-center">
                   <div className="">
-                    <button className="pt-[20px] pb-[15px] flex flex-row">
+                    <button
+                      className="pt-[20px] pb-[15px] flex flex-row hover:underline underline-offset-4"
+                      onClick={() => {
+                        if (isVisible3 === true) {
+                          setIsVisible3(false);
+                        } else setIsVisible3(true);
+                      }}
+                    >
                       <p className="text-very-dark-blues font-semibold  pr-[10px]">
                         Company
                       </p>
-                      <img
-                        className="w-[9px] h-[8px] mt-[7px]"
-                        src={iconarrowdark}
-                        alt="Arrow icon"
-                      />
+                      {isVisible3 || (
+                        <img
+                          className="w-[9px] h-[8px] mt-[7px]"
+                          src={iconarrowdark}
+                          alt="Arrow icon"
+                          data-aos="zoom-in"
+                          data-aos-duration="700"
+                        />
+                      )}
+                      {isVisible3 && (
+                        <img
+                          className="w-[9px] h-[8px] mt-[7px] gradient5"
+                          src={iconarrowdark}
+                          alt="Arrow icon"
+                        />
+                      )}
                     </button>
                   </div>
-                  <div className="bg-grayish-blues/30 py-[15px] w-[100%] rounded-[10px]">
-                    <div>
-                      <button className="">
-                        <p className="text-very-dark-blues hover:underline underline-offset-4">
-                          About
-                        </p>
-                      </button>
+                  {isVisible3 && (
+                    <div
+                      className="bg-grayish-blues/30 py-[15px] w-[100%] rounded-[10px]"
+                      data-aos="fade-left"
+                      data-aos-duration="700"
+                    >
+                      <div>
+                        <button className="">
+                          <p className="text-very-dark-blues hover:underline underline-offset-4">
+                            About
+                          </p>
+                        </button>
+                      </div>
+                      <div>
+                        <button className=" pt-[5px]">
+                          <p className="text-very-dark-blues hover:underline underline-offset-4">
+                            Team
+                          </p>
+                        </button>
+                      </div>
+                      <div>
+                        <button className=" pt-[5px]">
+                          <p className="text-very-dark-blues hover:underline underline-offset-4">
+                            Blog
+                          </p>
+                        </button>
+                      </div>
+                      <div>
+                        <button className=" pt-[5px]">
+                          <p className="text-very-dark-blues hover:underline underline-offset-4">
+                            Careers
+                          </p>
+                        </button>
+                      </div>
                     </div>
-                    <div>
-                      <button className=" pt-[5px]">
-                        <p className="text-very-dark-blues hover:underline underline-offset-4">
-                          Team
-                        </p>
-                      </button>
-                    </div>
-                    <div>
-                      <button className=" pt-[5px]">
-                        <p className="text-very-dark-blues hover:underline underline-offset-4">
-                          Blog
-                        </p>
-                      </button>
-                    </div>
-                    <div>
-                      <button className=" pt-[5px]">
-                        <p className="text-very-dark-blues hover:underline underline-offset-4">
-                          Careers
-                        </p>
-                      </button>
-                    </div>
-                  </div>
+                  )}
                 </div>
                 <div className="flex flex-col items-center pb-[20px]">
                   <div className="">
-                    <button className="pt-[20px] pb-[15px] flex flex-row">
+                    <button
+                      className="pt-[20px] pb-[15px] flex flex-row hover:underline underline-offset-4"
+                      onClick={() => {
+                        if (isVisible4 === true) {
+                          setIsVisible4(false);
+                        } else setIsVisible4(true);
+                      }}
+                    >
                       <p className="text-very-dark-blues font-semibold pr-[10px]">
                         Connect
                       </p>
-                      <img
-                        className="w-[9px] h-[8px] mt-[7px]"
-                        src={iconarrowdark}
-                        alt="Arrow icon"
-                      />
+                      {isVisible4 || (
+                        <img
+                          className="w-[9px] h-[8px] mt-[7px]"
+                          src={iconarrowdark}
+                          alt="Arrow icon"
+                          data-aos="zoom-in"
+                          data-aos-duration="700"
+                        />
+                      )}
+                      {isVisible4 && (
+                        <img
+                          className="w-[9px] h-[8px] mt-[7px] gradient5"
+                          src={iconarrowdark}
+                          alt="Arrow icon"
+                        />
+                      )}
                     </button>
                   </div>
-                  <div className="bg-grayish-blues/30 py-[15px] w-[100%] rounded-[10px]">
-                    <div>
-                      <button className="">
-                        <p className="text-very-dark-blues hover:underline underline-offset-4">
-                          Contact
-                        </p>
-                      </button>
+                  {isVisible4 && (
+                    <div
+                      className="bg-grayish-blues/30 py-[15px] w-[100%] rounded-[10px]"
+                      data-aos="fade-left"
+                      data-aos-duration="700"
+                    >
+                      <div>
+                        <button className="">
+                          <p className="text-very-dark-blues hover:underline underline-offset-4">
+                            Contact
+                          </p>
+                        </button>
+                      </div>
+                      <div>
+                        <button className=" pt-[5px]">
+                          <p className="text-very-dark-blues hover:underline underline-offset-4">
+                            Newsletter
+                          </p>
+                        </button>
+                      </div>
+                      <div>
+                        <button className=" pt-[5px]">
+                          <p className="text-very-dark-blues hover:underline underline-offset-4">
+                            LinkedIn
+                          </p>
+                        </button>
+                      </div>
                     </div>
-                    <div>
-                      <button className=" pt-[5px]">
-                        <p className="text-very-dark-blues hover:underline underline-offset-4">
-                          Newsletter
-                        </p>
-                      </button>
-                    </div>
-                    <div>
-                      <button className=" pt-[5px]">
-                        <p className="text-very-dark-blues hover:underline underline-offset-4">
-                          LinkedIn
-                        </p>
-                      </button>
-                    </div>
-                  </div>
+                  )}
                 </div>
               </div>
               <div className="gap-[12px] pt-[35px] flex flex-col font-bold">
                 <div>
-                  <button className="text-very-dark-blues rounded-full px-[30px] py-[10px]">
+                  <button className="text-very-dark-blues rounded-full px-[30px] py-[10px] hover:underline underline-offset-4">
                     Login
                   </button>
                 </div>
                 <div>
-                  <button className="gradientbutton whitespace-nowrap text-whites rounded-full px-[30px] py-[11px] font-semibold">
+                  <button className="gradientbutton whitespace-nowrap text-whites rounded-full px-[30px] py-[11px] font-semibold hover:bg-very-light-reds hover:underline underline-offset-4">
                     Sign Up
                   </button>
                 </div>

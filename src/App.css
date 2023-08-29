@@ -70,4 +70,9 @@
    .gradientbutton {
     background: linear-gradient(to right, rgba(255,143,112,0.95) 16%, rgba(255,61,84,0.95) 92%);
    }
+
+
+   .gradient5{
+    transform: rotate(-180deg);    
+   }
   }
