@@ -9,7 +9,7 @@ const Header = () => {
     <>
       <div className="gradient select-none">
         <div className="relative flex flex-col items-center">
-          <div className="z-10 absolute top-[150px] w-[80vw] shadow-[0_0_20px_2px_rgba(0,0,0,0.5)] text-center py-[40px] rounded-[10px] bg-very-dark-desaturated-blues divide-y divide-solid font-overpass">
+          <div className="z-10 absolute top-[150px] w-[80vw] px-[15%] shadow-[0_0_20px_2px_rgba(0,0,0,0.5)] text-center py-[40px] rounded-[10px] bg-very-dark-desaturated-blues divide-y divide-solid font-overpass">
             <div>
               <div className="flex flex-col items-center">
                 <div className="">
