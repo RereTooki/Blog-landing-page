@@ -11,6 +11,9 @@ const Header = () => {
   const [isVisible2, setIsVisible2] = useState(false);
   const [isVisible3, setIsVisible3] = useState(false);
   const [isVisible4, setIsVisible4] = useState(false);
+  const [isVisible5, setIsVisible5] = useState(false);
+  const [isVisible6, setIsVisible6] = useState(false);
+  const [isVisible7, setIsVisible7] = useState(false);
 
   return (
     <>
@@ -28,9 +31,14 @@ const Header = () => {
                     <button
                       className="flex flex-row pb-[15px] hover:underline focus:underline underline-offset-4"
                       onClick={() => {
-                        if (isVisible2 === true) {
-                          setIsVisible2(false);
-                        } else setIsVisible2(true);
+                        if (isVisible2 === false) {
+                          setIsVisible2(true);
+                          setIsVisible3(false);
+                          setIsVisible4(false);
+                          setIsVisible5(false);
+                          setIsVisible6(false);
+                          setIsVisible7(false);
+                        } else setIsVisible2(false);
                       }}
                     >
                       <p className="text-very-dark-blues font-semibold pr-[10px]">
@@ -103,9 +111,14 @@ const Header = () => {
                     <button
                       className="pt-[20px] pb-[15px] flex flex-row hover:underline focus:underline underline-offset-4"
                       onClick={() => {
-                        if (isVisible3 === true) {
-                          setIsVisible3(false);
-                        } else setIsVisible3(true);
+                        if (isVisible3 === false) {
+                          setIsVisible3(true);
+                          setIsVisible2(false);
+                          setIsVisible4(false);
+                          setIsVisible5(false);
+                          setIsVisible6(false);
+                          setIsVisible7(false);
+                        } else setIsVisible3(false);
                       }}
                     >
                       <p className="text-very-dark-blues font-semibold  pr-[10px]">
@@ -171,9 +184,14 @@ const Header = () => {
                     <button
                       className="pt-[20px] pb-[15px] flex flex-row hover:underline focus:underline underline-offset-4"
                       onClick={() => {
-                        if (isVisible4 === true) {
-                          setIsVisible4(false);
-                        } else setIsVisible4(true);
+                        if (isVisible4 === false) {
+                          setIsVisible4(true);
+                          setIsVisible2(false);
+                          setIsVisible3(false);
+                          setIsVisible5(false);
+                          setIsVisible6(false);
+                          setIsVisible7(false);
+                        } else setIsVisible4(false);
                       }}
                     >
                       <p className="text-very-dark-blues font-semibold pr-[10px]">
@@ -244,114 +262,114 @@ const Header = () => {
           </div>
         )}
         <div className="relative vsm:hidden md:flex z-10">
-          <div
-            className="absolute top-[95px] left-[266px] p-[15px] rounded-[10px] bg-whites font-overpass shadow-[0_0_20px_2px_rgba(0,0,0,0.5)]"
-            datas-aos="zoom-in"
-            datsa-aos-duration="700"
-          >
-            <div>
-              <button className="">
-                <p className="text-very-dark-blues hover:font-semibold hover:underline underline-offset-4">
-                  Overview
-                </p>
-              </button>
+          {isVisible5 && (
+            <div
+              className="absolute top-[105px] left-[266px] p-[15px] rounded-[10px] bg-whites font-overpass shadow-[0_0_20px_2px_rgba(0,0,0,0.5)]"
+              data-aos="zoom-in"
+              data-aos-duration="500"
+            >
+              <div>
+                <button className="">
+                  <p className="text-very-dark-blues hover:font-semibold hover:underline underline-offset-4">
+                    Overview
+                  </p>
+                </button>
+              </div>
+              <div>
+                <button className=" pt-[5px]">
+                  <p className="text-very-dark-blues hover:font-semibold hover:underline underline-offset-4">
+                    Pricing
+                  </p>
+                </button>
+              </div>
+              <div>
+                <button className=" pt-[5px]">
+                  <p className="text-very-dark-blues hover:font-semibold hover:underline underline-offset-4">
+                    Marketplace
+                  </p>
+                </button>
+              </div>
+              <div>
+                <button className=" pt-[5px]">
+                  <p className="text-very-dark-blues hover:font-semibold hover:underline underline-offset-4">
+                    Features
+                  </p>
+                </button>
+              </div>
+              <div>
+                <button className=" pt-[5px]">
+                  <p className="text-very-dark-blues hover:font-semibold hover:underline underline-offset-4">
+                    Integrations
+                  </p>
+                </button>
+              </div>
             </div>
-            <div>
-              <button className=" pt-[5px]">
-                <p className="text-very-dark-blues hover:font-semibold hover:underline underline-offset-4">
-                  Pricing
-                </p>
-              </button>
+          )}
+          {isVisible6 && (
+            <div
+              className="absolute top-[105px] left-[393px] p-[15px] rounded-[10px] bg-whites font-overpass shadow-[0_0_20px_2px_rgba(0,0,0,0.5)]"
+              data-aos="zoom-in"
+              data-aos-duration="500"
+            >
+              <div>
+                <button className="">
+                  <p className="text-very-dark-blues hover:font-semibold hover:underline underline-offset-4">
+                    About
+                  </p>
+                </button>
+              </div>
+              <div>
+                <button className=" pt-[5px]">
+                  <p className="text-very-dark-blues hover:font-semibold hover:underline underline-offset-4">
+                    Team
+                  </p>
+                </button>
+              </div>
+              <div>
+                <button className=" pt-[5px]">
+                  <p className="text-very-dark-blues hover:font-semibold hover:underline underline-offset-4">
+                    Blog
+                  </p>
+                </button>
+              </div>
+              <div>
+                <button className=" pt-[5px]">
+                  <p className="text-very-dark-blues hover:font-semibold hover:underline underline-offset-4">
+                    Careers
+                  </p>
+                </button>
+              </div>
             </div>
-            <div>
-              <button className=" pt-[5px]">
-                <p className="text-very-dark-blues hover:font-semibold hover:underline underline-offset-4">
-                  Marketplace
-                </p>
-              </button>
+          )}
+          {isVisible7 && (
+            <div
+              className="absolute top-[105px] left-[529px] p-[15px] rounded-[10px] bg-whites font-overpass shadow-[0_0_20px_2px_rgba(0,0,0,0.5)]"
+              data-aos="zoom-in"
+              data-aos-duration="500"
+            >
+              <div>
+                <button className="">
+                  <p className="text-very-dark-blues hover:font-semibold hover:underline underline-offset-4">
+                    Contact
+                  </p>
+                </button>
+              </div>
+              <div>
+                <button className=" pt-[5px]">
+                  <p className="text-very-dark-blues hover:font-semibold hover:underline underline-offset-4">
+                    Newsletter
+                  </p>
+                </button>
+              </div>
+              <div>
+                <button className=" pt-[5px]">
+                  <p className="text-very-dark-blues hover:font-semibold hover:underline underline-offset-4">
+                    LinkedIn
+                  </p>
+                </button>
+              </div>
             </div>
-            <div>
-              <button className=" pt-[5px]">
-                <p className="text-very-dark-blues hover:font-semibold hover:underline underline-offset-4">
-                  Features
-                </p>
-              </button>
-            </div>
-            <div>
-              <button className=" pt-[5px]">
-                <p className="text-very-dark-blues hover:font-semibold hover:underline underline-offset-4">
-                  Integrations
-                </p>
-              </button>
-            </div>
-
-            <p>aaa</p>
-          </div>
-          <div
-            className="absolute top-[95px] left-[393px] p-[15px] rounded-[10px] bg-whites font-overpass shadow-[0_0_20px_2px_rgba(0,0,0,0.5)]"
-            datas-aos="zoom-in"
-            datsa-aos-duration="700"
-          >
-            <div>
-              <button className="">
-                <p className="text-very-dark-blues hover:font-semibold hover:underline underline-offset-4">
-                  About
-                </p>
-              </button>
-            </div>
-            <div>
-              <button className=" pt-[5px]">
-                <p className="text-very-dark-blues hover:font-semibold hover:underline underline-offset-4">
-                  Team
-                </p>
-              </button>
-            </div>
-            <div>
-              <button className=" pt-[5px]">
-                <p className="text-very-dark-blues hover:font-semibold hover:underline underline-offset-4">
-                  Blog
-                </p>
-              </button>
-            </div>
-            <div>
-              <button className=" pt-[5px]">
-                <p className="text-very-dark-blues hover:font-semibold hover:underline underline-offset-4">
-                  Careers
-                </p>
-              </button>
-            </div>
-
-            <p>bbb</p>
-          </div>
-          <div
-            className="absolute top-[95px] left-[529px] p-[15px] rounded-[10px] bg-whites font-overpass shadow-[0_0_20px_2px_rgba(0,0,0,0.5)]"
-            datas-aos="zoom-in"
-            datsa-aos-duration="700"
-          >
-            <div>
-              <button className="">
-                <p className="text-very-dark-blues hover:font-semibold hover:underline underline-offset-4">
-                  Contact
-                </p>
-              </button>
-            </div>
-            <div>
-              <button className=" pt-[5px]">
-                <p className="text-very-dark-blues hover:font-semibold hover:underline underline-offset-4">
-                  Newsletter
-                </p>
-              </button>
-            </div>
-            <div>
-              <button className=" pt-[5px]">
-                <p className="text-very-dark-blues hover:font-semibold hover:underline underline-offset-4">
-                  LinkedIn
-                </p>
-              </button>
-            </div>
-
-            <p>ccc</p>
-          </div>
+          )}
         </div>
 
         <div
@@ -365,29 +383,101 @@ const Header = () => {
               src={logo}
               alt="Blogr's logo"
             />
-            <button className="vsm:hidden md:flex pt-[5px] pl-[65px] pr-[50px] flex flex-row">
-              <p className="text-whites/80 pr-[10px]">Product</p>
-              <img
-                className="w-[9px] h-[8px] mt-[8px]"
-                src={iconarrow}
-                alt="Arrow icon"
-              />
+            <button
+              className="vsm:hidden md:flex pt-[10px] pl-[65px] pr-[50px] flex flex-row font-semibold underline-offset-4 hover:underline focus:underline decoration-whites/80"
+              onClick={() => {
+                if (isVisible5 === false) {
+                  setIsVisible5(true);
+                  setIsVisible(false);
+                  setIsVisible2(false);
+                  setIsVisible3(false);
+                  setIsVisible4(false);
+                  setIsVisible6(false);
+                  setIsVisible7(false);
+                } else setIsVisible5(false);
+              }}
+            >
+              <p className="text-whites/80 pr-[10px] ">Product</p>
+              {isVisible5 || (
+                <img
+                  className="w-[9px] h-[8px] mt-[8px]"
+                  src={iconarrow}
+                  alt="Arrow icon"
+                  data-aos="zoom-in"
+                  data-aos-duration="500"
+                />
+              )}
+              {isVisible5 && (
+                <img
+                  className="w-[9px] h-[8px] mt-[7px] gradient5"
+                  src={iconarrow}
+                  alt="Arrow icon"
+                />
+              )}
             </button>
-            <button className="vsm:hidden md:flex pt-[5px]  pr-[50px] flex flex-row">
+            <button
+              className="vsm:hidden md:flex pt-[10px]  pr-[50px] flex flex-row font-semibold underline-offset-4 hover:underline focus:underline decoration-whites/80"
+              onClick={() => {
+                if (isVisible6 === false) {
+                  setIsVisible6(true);
+                  setIsVisible(false);
+                  setIsVisible2(false);
+                  setIsVisible3(false);
+                  setIsVisible4(false);
+                  setIsVisible5(false);
+                  setIsVisible7(false);
+                } else setIsVisible6(false);
+              }}
+            >
               <p className="text-whites/80 pr-[10px]">Company</p>
-              <img
-                className="w-[9px] h-[8px] mt-[8px]"
-                src={iconarrow}
-                alt="Arrow icon"
-              />
+              {isVisible6 || (
+                <img
+                  className="w-[9px] h-[8px] mt-[8px]"
+                  src={iconarrow}
+                  alt="Arrow icon"
+                  data-aos="zoom-in"
+                  data-aos-duration="500"
+                />
+              )}
+              {isVisible6 && (
+                <img
+                  className="w-[9px] h-[8px] mt-[7px] gradient5"
+                  src={iconarrow}
+                  alt="Arrow icon"
+                />
+              )}
             </button>
-            <button className="vsm:hidden md:flex pt-[5px] flex flex-row">
+            <button
+              className="vsm:hidden md:flex pt-[10px] flex flex-row font-semibold underline-offset-4 hover:underline focus:underline decoration-whites/80"
+              onClick={() => {
+                if (isVisible7 === false) {
+                  setIsVisible7(true);
+                  setIsVisible(false);
+                  setIsVisible2(false);
+                  setIsVisible3(false);
+                  setIsVisible4(false);
+                  setIsVisible5(false);
+                  setIsVisible6(false);
+                } else setIsVisible7(false);
+              }}
+            >
               <p className="text-whites/80 pr-[10px]">Connect</p>
-              <img
-                className="w-[9px] h-[8px] mt-[8px]"
-                src={iconarrow}
-                alt="Arrow icon"
-              />
+              {isVisible7 || (
+                <img
+                  className="w-[9px] h-[8px] mt-[8px]"
+                  src={iconarrow}
+                  alt="Arrow icon"
+                  data-aos="zoom-in"
+                  data-aos-duration="500"
+                />
+              )}
+              {isVisible7 && (
+                <img
+                  className="w-[9px] h-[8px] mt-[7px] gradient5"
+                  src={iconarrow}
+                  alt="Arrow icon"
+                />
+              )}
             </button>
           </div>
           <div className="flex flex-row font-bold">
@@ -399,7 +489,15 @@ const Header = () => {
             </button>
             {isVisible && (
               <button
-                onClick={() => setIsVisible(false)}
+                onClick={() => {
+                  setIsVisible(false);
+                  setIsVisible2(false);
+                  setIsVisible3(false);
+                  setIsVisible4(false);
+                  setIsVisible5(false);
+                  setIsVisible6(false);
+                  setIsVisible7(false);
+                }}
                 data-aos="zoom-in"
                 data-aos-duration="700"
               >
@@ -412,7 +510,15 @@ const Header = () => {
             )}
             {isVisible || (
               <button
-                onClick={() => setIsVisible(true)}
+                onClick={() => {
+                  setIsVisible(true);
+                  setIsVisible2(false);
+                  setIsVisible3(false);
+                  setIsVisible4(false);
+                  setIsVisible5(false);
+                  setIsVisible6(false);
+                  setIsVisible7(false);
+                }}
                 data-aos="zoom-in"
                 data-aos-duration="700"
               >
