@@ -7,17 +7,13 @@ const Footer = () => {
     <>
       <div className="items-center bg-very-dark-black-blues overflow-hidden select-none rounded-tr-[150px]">
         <div className="items-center nsm:items-start flex flex-col nsm:flex-row nsm:justify-evenly pt-[80px] nsm:pt-[70px] ">
-          <div
-            className=""
-            data-aossorry="zoom-in-right"
-            data-aossorry-duration="700"
-          >
+          <div className="" data-aos="zoom-in-right" data-aos-duration="700">
             <img className="" src={logo} alt="Blogr's logo" />
           </div>
           <div
             className="flex flex-col"
-            data-aossorry="zoom-in"
-            data-aossorry-duration="700"
+            data-aos="zoom-in"
+            data-aos-duration="700"
           >
             <div>
               <button className="pt-[40px] nsm:pt-0">
@@ -62,8 +58,8 @@ const Footer = () => {
           </div>
           <div
             className="flex flex-col pr-[20px]"
-            data-aossorry="zoom-in"
-            data-aossorry-duration="700"
+            data-aos="zoom-in"
+            data-aos-duration="700"
           >
             <div>
               <button className="">
@@ -101,8 +97,8 @@ const Footer = () => {
           </div>
           <div
             className="flex flex-col pr-[12px]"
-            data-aossorry="zoom-in"
-            data-aossorry-duration="700"
+            data-aos="zoom-in"
+            data-aos-duration="700"
           >
             <div>
               <button className="">
