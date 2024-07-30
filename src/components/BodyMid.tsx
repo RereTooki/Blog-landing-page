@@ -21,7 +21,7 @@ const BodyMid = () => {
           data-aos="fade-up"
           data-aos-duration="700"
         >
-          <h1 className="text-[50px] nsm:text-[25px] leading-[60px]  font-semibold text-whites nsm:whitespace-nowrap">
+          <h1 className="text-[40px] nsm:text-[25px] leading-[60px]  font-semibold text-whites nsm:whitespace-nowrap">
             State of the Art Infrastructure
           </h1>
           <p className="leading-[42px] nsm:leading-normal text-[24px] nsm:text-[16px] tracking-wide text-grayish-blues">
